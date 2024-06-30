@@ -4,7 +4,7 @@ let justbody = document.body.innerHTML
 let weathercnd = ""
 function settimebg(){
     console.log(weathercnd)
-    if(date.getHours()>20){
+    if(date.getHours()<20){
         console.log("night")
         document.body.style.background = "linear-gradient(180deg, rgba(0,2,45,1) 0%, rgba(124,81,66,1) 100%)"
         document.body.innerHTML = justbody  
